@@ -8,7 +8,7 @@
 <script src="./js/vendor/modernizr.custom.min.js"></script>
 <script src="./js/vendor/jquery-1.10.2.min.js"></script>
 <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="./js/vendor/jquery.mousewheel.js"></script>
+
 <script src="./js/vendor/imagesloaded.pkgd.min.js"></script>
 <script src="./js/main.js"></script>
 <link rel="stylesheet" href="最終課題.css">
@@ -20,77 +20,108 @@
       if(f1.type1[0].checked == true){
         if(f1.type2[0].checked == true){
           if(f1.type3[0].checked == true){
+
             if(f1.type4[0].checked == true){
               location.href = "最終課題画像1.html";}
+
             else if (f1.type4[1].checked == true) {
               location.href = "最終課題画像2.html";}
-            else if (f1.type4[2].checked == true){
-              location.href = "最終課題画像3.html";}
-          }
-          else if (f1.type3[1].checked == true){
-            if(f1.type4[0].checked == true){
-              location.href = "最終課題画像4.html";
-            }
-            else if (f1.type4[1].checked == true) {
-              location.href = "最終課題画像5.html";
-            }
-            else if (f1.type4[2].checked == true){
-            location.href = "最終課題画像6.html";
-            }
-          }
-        }
-        else if (f1.type2[1].checked == true){
-          if (f1.type3[0].checked == true){
-            if (f1.type4[0].checked == true){
-                location.href = "最終課題画像7.html";
-  　　　　　　}
-            else if (f1.type4[1].checked == true){
-              location.href = "最終課題画像8.html";
-            }
-            else if (f1.type4[2].checked == true) {
-            location.href = "";
-           }
+
           }
           else if(f1.type3[1].checked == true){
+
             if(f1.type4[0].checked == true){
-              location.href = "最終課題画像11.html";
-              }
-            else if(f1.type4[1].checked == true){
-              location.href = "";
-            }
-            else if(f1.type4[2].checked == true){
+              location.href = "最終課題画像3.html";}
 
-            }
+            else if (f1.type4[1].checked == true) {
+              location.href = "最終課題画像4.html";}
+
           }
+
         }
 
-      else if (f1.type2[2].checked == true){
-        if (f1.type3[0].checked == true){
-          if (f1.type4[0].checked == true){
-                  location.href = "";
-          }
-          if (f1.type4[1].checked == true){
-                  location.href = "";
-          }
-          if (f1.type4[2].checked == true){
-                  location.href = "";
-        }
-}
-}
-      if (f1.type3[1].checked == true){
-         if (f1.type4[0].checked == true){
-          location.href = "";
-         }
-           if (f1.type4[1].checked == true){
-             location.href = "";
+        else if (f1.type2[1].checked == true){
+
+          if (f1.type3[0].checked == true){
+
+            if (f1.type4[0].checked == true){
+                location.href = "gazo5.html";}
+
+            else if (f1.type4[1].checked == true){
+              location.href = "gazo6.html";}
+
            }
-             if (f1.type4[2].checked == true){
-               location.href = "";
+
+           else if(f1.type3[1].checked == true){
+             if(f1.type4[0].checked == true){
+               location.href = "最終課題画像7.html";
+               }
+             else if(f1.type4[1].checked == true){
+               location.href = "gazo8.html";
              }
 
-     }
+
+           }
+
+          }
+
+        }
+
+        if(f1.type1[1].checked == true){
+          if(f1.type2[0].checked == true){
+            if(f1.type3[0].checked == true){
+
+              if(f1.type4[0].checked == true){
+                location.href = "gazo9.html";}
+
+              else if (f1.type4[1].checked == true) {
+                location.href = "gazo10.html";}
+
+            }
+            else if(f1.type3[1].checked == true){
+
+              if(f1.type4[0].checked == true){
+                location.href = "gazo11.html";}
+
+              else if (f1.type4[1].checked == true) {
+                location.href = "gazo12.html";}
+
+            }
+
+          }
+
+          else if (f1.type2[1].checked == true){
+
+            if (f1.type3[0].checked == true){
+
+              if (f1.type4[0].checked == true){
+                  location.href = "gazo13.html";}
+
+              else if (f1.type4[1].checked == true){
+                location.href = "gazo14.html";}
+
+             }
+
+             else if(f1.type3[1].checked == true){
+               if(f1.type4[0].checked == true){
+                 location.href = "gazo15.html";
+                 }
+               else if(f1.type4[1].checked == true){
+                 location.href = "gazo16.html";
+               }
+
+
+             }
+
+            }
+
+          }
+
+
+
+
 }
-}
+
 $(function () {
 
     // プログレス表示の関数を呼び出す
@@ -181,26 +212,26 @@ $(function () {
 好みの髪型:
       <input type="radio" name="type1" value="hair1"checked>ショート
       <input type="radio" name="type1" value="hair2">ロング
-      <input type="radio" name="type1" value="hair3">セミロング
+
   </p>
   <p>
 好みの年齢:
-      <input type="radio" name="type2" value="age1"checked>10代
-      <input type="radio" name="type2" value="age2">20代
-      <input type="radio" name="type2" value="age3">30代
+      <input type="radio" name="type2" value="age1"checked>20代前半
+      <input type="radio" name="type2" value="age2">20代後半
+
 
   </p>
   <p>
-好みの性格:
-      <input type="radio" name="type3" value="c1"checked>おしとやか
-      <input type="radio" name="type3" value="c2">気が強い
+好みの体型:
+      <input type="radio" name="type3" value="c1"checked>大人
+      <input type="radio" name="type3" value="c2">ロリ
   </p>
 
   <p>
-好みの身長:
-      <input type="radio" name="type4" value="d1"checked>150代
-      <input type="radio" name="type4" value="d2">160代
-      <input type="radio" name="type4" value="d3">170代
+好みの胸の大きさ:
+      <input type="radio" name="type4" value="d1"checked>巨乳
+      <input type="radio" name="type4" value="d2">貧乳
+
 
   </p>
 
@@ -222,4 +253,4 @@ $(function () {
 img{width: 500px;}
 </style>
 </body>
-</html>
+</html
